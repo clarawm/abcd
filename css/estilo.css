@@ -1,1 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+*{
+    font-family: Questrial;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #FEDFA3;
+    --secondary: #2F0961;
+    --third: #EDF4FB;
+}
+header{
+    display: flex;
+    border-bottom: 0.5rem solid var(--secondary);
+}
+header picture img {
+    height: 5rem;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header ul li { 
+    margin: 0 1.5rem;
+}
+header ul li a {
+    text-decoration-line: underline;
+    text-decoration-color: #7A1DC7;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-style: dashed;
+    font-size: 1.3rem;
+    color: var(--black);
+}
+main{
+    min-height: 70vh;
+}
+
+footer {
+    background-color: var(--secondary);
+    height: 4rem;
+}
+footer div {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    max-width: 1372px;
+    margin: 0 auto;
+}
+/*Specific main*/
+main > picture.main > img {
+    width: 100%;
+}
