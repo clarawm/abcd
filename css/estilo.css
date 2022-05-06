@@ -21,6 +21,10 @@ header{
 header picture img {
     height: 5rem;
 }
+header div a{
+    margin: 0 rem;
+}
+
 header nav {
     width: 100%;
     display: flex;
@@ -35,17 +39,13 @@ header ul li {
     margin: 0 1.5rem;
 }
 header ul li a {
-    text-decoration-line: underline;
-    text-decoration-color: #7A1DC7;
-    text-decoration-thickness: 0.1rem;
-    text-decoration-style: dashed;
+    text-decoration-line: none;
     font-size: 1.3rem;
     color: var(--black);
 }
 main{
-    min-height: 70vh;
+    min-height: 84vh;
 }
-
 footer {
     background-color: var(--secondary);
     height: 4rem;
@@ -63,4 +63,7 @@ footer div {
 /*Specific main*/
 main > picture.main > img {
     width: 100%;
+}
+footer div a{
+    margin: 0 0.6rem;
 }
